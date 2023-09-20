@@ -1,0 +1,19 @@
+:root {
+    --cor-fundo: #fff;
+    --cor-container-amarelo: #fff159;
+    --font-family: 'Open Sans',-apple-system,Roboto,Arial,sans-serif,sans-serif;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 300;
+    width: 100%;
+    display: block;
+}
+
+.container {
+    background-color: var(--cor-container-amarelo);    
+    border-bottom: 0.8px solid #d5bebe;
+}

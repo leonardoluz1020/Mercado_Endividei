@@ -1,0 +1,78 @@
+.cabecalho__principal-opcoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.3rem 0;
+}
+
+.cabecalho__logo_img {
+    width: 2.0rem;
+    height: 2.0rem;
+    border: 1px solid #fff;
+    border-radius: 55px;
+    margin: 0 0.5rem 0 1.5rem;
+}
+
+.cabecalho__principal-opcoes-busca-input {
+    width: 60%;
+    padding: 0.4rem 0;
+    border: none;
+}
+
+.cabecalho__principal-opcoes-busca-input::placeholder {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #d5bebe;
+    /* background: url("./img/LupaPnG.png") no-repeat;
+    background-position: left; */
+}
+
+.cabecalho__principal-opcoes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0.5rem 0 0;
+}
+
+.cabecalho__principal-opcoes-menu-hamburgue{
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.6rem;
+}
+
+.cabecalho__principal-opcoes-carrinho-img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 55px;
+}
+
+.cabecalho__principal-cep-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.3rem 2rem 0.8rem 1rem;
+    text-decoration: none;    
+}
+
+.cabecalho__principal-cep-link-container{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.cabecalho__principal-cep-link-img{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 55px;
+}
+
+.cabecalho__principal-cep-link-img-titulo{
+    font-family: var(--font-family);
+    font-size: 13px;
+    width: 76%;
+    text-align: left;
+    padding-left: 0.5rem;
+}
