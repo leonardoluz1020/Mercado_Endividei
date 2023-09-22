@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -18,23 +19,17 @@
     <header>
         <nav class="cabecalho">
             <div class="container cabecalho__principal-opcoes">
-
                 <a href="#" class="cabecalho__logo"><img class="cabecalho__logo_img"
                         src="./styles/img/Mercado_Endividei.png" alt="carrinho de compras"></a>
-
                 <input class="cabecalho__principal-opcoes-busca-input" type="search" name="" id="pesquisar"
                     placeholder=" Estou buscando...">
-
                 <div class="cabecalho__principal-opcoes-container">
                     <a href="#"><img class="cabecalho__principal-opcoes-menu-hamburgue" src="styles/img/Menu.svg"
                             alt="menu hamburgue"></a>
-
                     <a href="#" class="cabecalho__principal-opcoes-carrinho"><img
                             class="cabecalho__principal-opcoes-carrinho-img" src="styles/img/carrinho_compra.png"
                             alt="carrinho de compras"></a>
-
                 </div>
-
             </div>
             <div class="container cabecalho__principal-cep">
                 <a href="#" class="cabecalho__principal-cep-link">
@@ -46,8 +41,67 @@
                     <img class="cabecalho__principal-cep-link-img" src="styles/img/seta_direita.png" alt="Seta">
                 </a>
             </div>
+            <div class="container cabecalho__secundario">
+                <div class="swiper">
+                    <!-- Codigo do carrossel -->
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img class="swiper-wrapper-img"
+                                src="./styles/img/promocao_vendas_png.png" alt="promocao"></div>
+                        <div class="swiper-slide"><img class="swiper-wrapper-img"
+                                src="./styles/img/pulseiras_vendas.png" alt="pulseira"></div>
+                        <div class="swiper-slide"><img class="swiper-wrapper-img"
+                                src="./styles/img/celulares_vendas_png.jpeg" alt="celular"></div>
+                        <div class="swiper-slide"><img class="swiper-wrapper-img" src="./styles/img/jbl_vendas.jpeg"
+                                alt="jbl"></div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+
+                </div>
+                <div class="container cabecalho__secundario-form-pagamentos">
+                    <a href="#" class="form__pagamentos-link">
+                        <img src="./styles/img/Cartao_Credito.png" alt="imagem" class="form__pagamentos-link-img">
+                    </a>
+                    <div class="cabecalho__secundario-form-pagamentos-container">
+                        <h2 class="form__pagamentos-titulo">Até 10 parcelas sem juros</h2>
+                        <a href="#" class="form__pagamentos-link-opcoes">Ver mais</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script> const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            spaceBetween: 5,
+            slidesPerView: 1,
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
 </body>
 
 </html>
