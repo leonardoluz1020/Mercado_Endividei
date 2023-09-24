@@ -1,21 +1,25 @@
 :root {
-    --cor-fundo: #fff;
+    --cor-branca: #fff;
+    --cor-preta: rgba(0,0,0,.9);
     --cor-container-amarelo: #fff159;
     --cor-azul:  #1259c3;
     --cor-preto-titulo: #333;
+    --cor-borda: #d5bebe;
+    --cor-cinza: #ebebeb;
+    --cor-verde: #00a650;
     --font-family: 'Open Sans',-apple-system,Roboto,Arial,sans-serif,sans-serif;
 }
 
 body{
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-cinza);
     font-family: var(--font-family);
     font-size: 14px;
     font-weight: 300;
-    width: 100%;
+    width: 100vw;
     display: block;
 }
 
 .container {
     background-color: var(--cor-container-amarelo);    
-    border-bottom: 0.8px solid #d5bebe;
+    border-bottom: 0.8px solid var(--cor-borda);
 }

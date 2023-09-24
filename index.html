@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/principal.css">
 </head>
 
 <body>
@@ -21,6 +22,7 @@
             <div class="container cabecalho__principal-opcoes">
                 <a href="#" class="cabecalho__logo"><img class="cabecalho__logo_img"
                         src="./styles/img/Mercado_Endividei.png" alt="carrinho de compras"></a>
+                <img class="cabecalho__logo_img_lupa" src="styles/img/lupa.jpeg" alt="">
                 <input class="cabecalho__principal-opcoes-busca-input" type="search" name="" id="pesquisar"
                     placeholder=" Estou buscando...">
                 <div class="cabecalho__principal-opcoes-container">
@@ -44,26 +46,26 @@
             <div class="container cabecalho__secundario">
                 <div class="swiper">
                     <!-- Codigo do carrossel -->
-
                     <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide"><img class="swiper-wrapper-img"
-                                src="./styles/img/promocao_vendas_png.png" alt="promocao"></div>
+                                src="./styles/img/banner_template_Jpeg.jpeg" alt="banner"></div>
                         <div class="swiper-slide"><img class="swiper-wrapper-img"
-                                src="./styles/img/pulseiras_vendas.png" alt="pulseira"></div>
+                                src="./styles/img/pulseiras-vendas.png" alt="pulseira"></div>
                         <div class="swiper-slide"><img class="swiper-wrapper-img"
-                                src="./styles/img/celulares_vendas_png.jpeg" alt="celular"></div>
-                        <div class="swiper-slide"><img class="swiper-wrapper-img" src="./styles/img/jbl_vendas.jpeg"
-                                alt="jbl"></div>
+                                src="./styles/img/celulares_vendas.jpeg" alt="celular"></div>
+                        <div class="swiper-slide"><img class="swiper-wrapper-img" src="./styles/img/festival_Jpeg.jpeg"
+                                alt="Festival"></div>
+                        <div class="swiper-slide"><img class="swiper-wrapper-img" src="./styles/img/editorial_png.png"
+                                alt="Editorial"></div>
+                        <div class="swiper-slide"><img class="swiper-wrapper-img" src="./styles/img/banner_Jpeg.jpeg"
+                                alt="banner jpeg"></div>
+                        <div class="swiper-slide"><img class="swiper-wrapper-img" src="./styles/img/promocao_.png"
+                                alt="banner jpeg"></div>
                     </div>
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
-
                 </div>
                 <div class="container cabecalho__secundario-form-pagamentos">
                     <a href="#" class="form__pagamentos-link">
@@ -76,29 +78,35 @@
                 </div>
             </div>
         </nav>
+        <main class="principal">
+            <section class="principal__visto-principal">
+                <a href="#" class="principal__visto-principal principal__visto-principal-produto-link">
+                    <h2 class="principal__visto-principal-titulo">Visto recentemente</h2>
+                    <img class="principal__visto-principal-produto-imagem" src="styles/img/jbl_principal_img.jpeg"
+                        alt="jbl">
+                    <h3 class="principal__visto-principal-produto-subtitulo">Caixa De Som Boombox 3 Bluetooth Preta Jbl
+                        Bivolt Cor Preto 110v/220v</h2>
+                    <span class="principal__visto-principal-span-valor-antes">De <s>R$ 3519</s></span>
+                    <span class="principal__visto-principal-span-valor-atual"> Por R$ 2249 reais 36% OFF</span>
+                    <p class="principal__visto-principal-produto-parcelamentos"> em  10x  224 reais e 90 centavos</p>
+                    <p class="principal__visto-principal-produto-texto">Frete gratis</p>
+                    <h4 class="principal__visto-principal-titulo-historico-navegacao">Ver historico de navegação</h4>
+                </a>
+            </section>
+        </main>
     </header>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script> const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            spaceBetween: 5,
-            slidesPerView: 1,
             direction: 'horizontal',
             loop: true,
-
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
             // If we need pagination
             pagination: {
                 el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
+                type: 'bullets',
             },
         });
     </script>
