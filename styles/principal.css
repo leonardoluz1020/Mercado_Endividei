@@ -1,8 +1,8 @@
 .principal {
     width: 100%;
     display: flex;
-    justify-content: center;
-    /* padding: 0 2rem ; */
+    flex-direction: column;
+    align-items: center;
 }
 
 .principal__visto-principal {
@@ -62,12 +62,58 @@
     padding: 1rem 0;
 }
 
-.principal__visto-principal-titulo-historico-navegacao {
+.principal__visto-principal-historico-navegacao {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.4px solid var(--cor-borda);
+}
+
+.principal__visto-principal-titulo-historico-navegacao {
     font-size: 14px;
     font-weight: 600;
     padding: 1rem 0 0 0.5rem;
     line-height: 1.5;
     color: var(--cor-azul);
+}
+
+.principal__visto-principal-historico-navegacao-img {
+    width: 1.4rem;
+    padding-top: 1rem;
+}
+
+
+.container__principal-inspirado-ultimo-visto {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.principal__inspirado-ultimo-visto-container {
+    width: 44%;
+    padding: 0.5rem;
+    border: 0.5px solid var(--cor-cinza);
+}
+
+.principal__inspirado-ultimo-visto-titulo {
+    width: 95%;
+    color: var(--cor-preta);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 1rem 0 1rem 1rem;
+    border-bottom: 0.4px solid var(--cor-borda);
+}
+
+.principal__inspirado-ultimo-visto-ver-mais {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-top: 0.4px solid var(--cor-borda);
+    padding: 0 1rem 1rem 1rem;
 }
