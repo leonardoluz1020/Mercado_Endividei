@@ -9,6 +9,10 @@
     --cor-borda: #d5bebe;
     --cor-cinza: #ebebeb;
     --cor-verde: #00a650;
+    --first_color_loyalty: #5A238D;
+    --second_color_loyalty: #AA1192;
+    --deg_loyalty: 45deg;
+    --percentage_loyalty: 0%;
     --font-family: 'Open Sans',-apple-system,Roboto,Arial,sans-serif,sans-serif;
 }
 
