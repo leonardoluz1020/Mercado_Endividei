@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/principal.css">
+    <link rel="stylesheet" href="./styles/secoes.css">
 </head>
 
 <body>
@@ -317,46 +318,111 @@
             <div class="container__cabecalho">
                 <div class="container__container__cabecalho">
                     <h2 class="container__cabecalho-titulo">Assine o</h2>
-                    <img class="container__cabecalho__titulo-img" src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/meliplus/home/meliplus-outline-pill@3x.png" alt="Meli+">
+                    <img class="container__cabecalho__titulo-img"
+                        src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/meliplus/home/meliplus-outline-pill@3x.png"
+                        alt="Meli+">
                 </div>
                 <div class="container__cabecalho__valores">
-                    <p class="container__cabecalho__valores-cifra" >R$</p>
+                    <p class="container__cabecalho__valores-cifra">R$</p>
                     <p>17</p>
                     <p class="container__cabecalho__valores-texto">99</p>
-                    <p>/mês</p>
-                </div>                
+                    <p class="container__cabecalho__valores-mes">/mês</p>
+                </div>
             </div>
             <div class="container__assinatura">
-                <div>
-                    <h2>Conte com os melhores benefícios no Mercado Livre e do Mercado Pago</h2>
+                <h2 class="container__assinatura__titulo">Conte com os melhores benefícios no Mercado Livre e do Mercado
+                    Pago</h2>
+                <div class="container__assinatura__img-texto">
+                    <img class="container__assinatura__img"
+                        src="https://http2.mlstatic.com/resources/frontend/statics/loyal/v2/truckgiftv4@2x.png"
+                        alt="Carrinho Frete">
+                    <p class="container__assinatura-texto">Frete grátis em milhões de produtos</p>
                 </div>
-                <div>
-                    <p><img src="https://http2.mlstatic.com/resources/frontend/statics/loyal/v2/truckgiftv4@2x.png"
-                            alt="Carrinho Frete">Frete grátis em milhões de produtos</p>
-                    <p><img src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/disneyplus/widget-home/combo-widgetl6@2x.jpg"
-                            alt="Carrinho Frete">Disney+ e Star+ sem custo</p>
-                    <p><img src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/deezer/widget-home/deezer-l6widget@2x.jpg"
-                            alt="Deezer Premium">12 meses grátis da Deezer Premium</p>
-                    <p><img src="https://http2.mlstatic.com/resources/frontend/statics/loyal/ultrapasse-widget@2x.png"
-                            alt="Carro">60% OFF no Ultrapasse e outros benefícios</p>
+                <div class="container__assinatura__img-texto">
+                    <img class="container__assinatura__img"
+                        src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/disneyplus/widget-home/combo-widgetl6@2x.jpg"
+                        alt="Carrinho Frete">
+                    <p class="container__assinatura-texto">Disney+ e Star+ sem custo</p>
+                </div>
+                <div class="container__assinatura__img-texto">
+                    <img class="container__assinatura__img"
+                        src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/deezer/widget-home/deezer-l6widget@2x.jpg"
+                        alt="Deezer Premium">
+                    <p class="container__assinatura-texto">12 meses grátis da Deezer Premium</p>
+                </div>
+                <div class="container__assinatura__img-texto">
+                    <img class="container__assinatura__img"
+                        src="https://http2.mlstatic.com/resources/frontend/statics/loyal/ultrapasse-widget@2x.png"
+                        alt="Carro">
+                    <p class="container__assinatura-texto">60% OFF no Ultrapasse e outros benefícios</p>
+                </div>
+                <div class="container_principal-rodape border__titulo__rodape">
+                    <h4 class="principal__visto-principal-titulo-historico-navegacao">Assinar o Meli+
+                    </h4>
+                    <img class="principal__visto-principal-historico-navegacao-img" src="./styles/img/seta_direita.png"
+                        alt="seta">
                 </div>
             </div>
-            <div class="container_principal-rodape border__titulo__rodape">
-                <h4 class="principal__visto-principal-titulo-historico-navegacao">Assinar o Meli+
-                </h4>
-                <img src="./styles/img/seta_direita.png" alt="seta"
-                    class="principal__visto-principal-historico-navegacao-img">
-            </div>
+        </section>
+        <section class="secao__container">
+            <h2 class="secao__titulo">Benefícios em conteúdo</h2>
+            <div class="swiper">
+                <!-- Codigo do carrossel -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide  secao__container-swiper">
+                        <a href="#" class="secao__container__link">
+                            <img class="secao__container__container-conteudo-img"
+                                src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/meliplus/disney_star_widgetmulti_mobdsk_mlb_@2x.jpg"
+                                alt="desenho animação">
+                            <div class="secao__container__container-conteudo-span">
+                                <div class="secao__container__container-conteudo-span-sub">
+                                    <img class="secao__container-conteudo-sub-img"
+                                        src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/disneyplus/comboplus-square.jpg"
+                                        alt="">
+                                    <span class="secao__container__container-conteudo-span-texto">Sem custo com Meli+</span>
+                                    <span class="sub-span-texto">Disney+ e Star+</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide secao__container-swiper">
+                        <a href="#" class="secao__container__link">
+                            <img class="secao__container__container-conteudo-img"
+                                src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/meliplus/disney_star_widgetmulti_mobdsk_mlb_@2x.jpg"
+                                alt="desenho animação">
+                            <div class="secao__container__container-conteudo-span">
+                                <div class="secao__container__container-conteudo-span-sub">
+                                    <img class="secao__container-conteudo-sub-img"
+                                        src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/disneyplus/comboplus-square.jpg"
+                                        alt="">
+                                    <span class="secao__container__container-conteudo-span-texto">Sem custo com Meli+</span>
+                                    <span class="sub-span-texto">Disney+ e Star+</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- 
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div> -->
+                </div>
+            </div>            
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script> const swiper = new Swiper('.swiper', {
             direction: 'horizontal',
             loop: true,
-            autoplay: {
+            /* autoplay: {
                 delay: 3000,
                 disableOnInteraction: false,
-            },
+            }, */
             // If we need pagination
             pagination: {
                 el: '.swiper-pagination',

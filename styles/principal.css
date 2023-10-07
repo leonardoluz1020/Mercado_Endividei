@@ -68,7 +68,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 1rem 0.5rem 1rem;
 }
 
 .principal__visto-principal-titulo-historico-navegacao {
@@ -162,6 +162,7 @@
 }
 
 .border__titulo__rodape {
+    margin-top: 0.5rem;
     border-top: 0.5px solid var(--cor-cinza);
 }
 
@@ -195,7 +196,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: var(--cor-branca);
     gap: 0.4rem;
@@ -206,13 +207,40 @@
     padding-left: 0.4rem;
 }
 
-.container__cabecalho__valores-texto {
+.container__cabecalho__valores-texto,
+.container__cabecalho__valores-mes {
     font-size: 14px;
     padding-bottom: 0.5rem;
 }
 
 .container__assinatura {
-    padding: 1rem;
+    width: 100%;
+    padding: 1rem 1rem;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+}
+
+.container__assinatura__titulo {
+    max-width: 215px;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.container__assinatura__img-texto {
+    width: 100%;
+    display: flex;
+    padding: 0.2rem 0.5rem;
+}
+
+.container__assinatura__img {
+    width: 48px;
+    height: 48px;
+}
+
+.container__assinatura-texto{
+    width: 60%;
+    align-self: center;
+    padding-left: 0.5rem;
 }
