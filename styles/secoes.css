@@ -21,19 +21,13 @@
     margin-bottom: 0.8rem;
 }
 
-.secao__container-swiper {
-    margin-left: 0.8rem;
-}
-
-.secao__container__link {
-    width: 308px;
+.swiper-slide {
     text-decoration: none;
-    border-top: 0.5px solid var(--cor-borda);
-    padding-top: 0.8rem;
+    margin-left: 0.2rem;
 }
 
 .secao__container__container-conteudo-img {
-    width: 308px;
+    width: 305px;
     height: 100px;
     object-fit: cover;
     object-position: top;
@@ -41,12 +35,12 @@
 }
 
 .secao__container__container-conteudo-span {
-    width: 308px;
+    width: 305px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    bottom: 25px;
+    bottom: 20px;
     background: linear-gradient(0deg, rgba(8, 19, 48) 84px, rgba(0, 0, 0, 0) 100%);
     border-radius: 0 0 5px 5px;
 }
@@ -55,7 +49,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 25px;
+    bottom: 35px;
 }
 
 .secao__container-conteudo-sub-img {
@@ -71,7 +65,6 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;
-    padding: 0 8px;
     margin-bottom: 0.3rem;
 }
 
@@ -79,4 +72,160 @@
     color: hsla(0, 0%, 100%, .7);
     font-size: 12px;
     text-align: center;
+}
+
+.span-sub-two {
+    margin-bottom: -12px;
+}
+
+.span-one {
+    background-image: linear-gradient(0deg, rgba(60, 3, 78) 84px, rgba(0, 0, 0, 0) 100%);
+}
+
+.span-two {
+    background-image: linear-gradient(0deg, rgba(0, 100, 255) 84px, rgba(0, 0, 0, 0) 100%);
+}
+
+.secao__banner {
+    width: 95%;
+    margin-bottom: 1rem;
+}
+
+.secao__banner__container {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--cor-azul-sansung);
+    min-height: 250px;
+}
+
+.secao__banner-imagen {
+    width: 100%;
+}
+
+.secao__banner_img {
+    width: 100%;
+    max-height: 290px;
+    border-radius: 5px;
+}
+
+.secao__banner_img-sub {
+    width: auto;
+    padding: 0.5rem;
+    background-color: var(--cor-branca);
+    padding: 0.5rem;
+    position: relative;
+    bottom: 30px;
+    left: 25px;
+    border-radius: 5px;
+}
+
+
+.banner_img-sub {
+    width: 80px;
+    height: 58px;
+}
+
+.secao__banner_container-descricao {
+    width: 95%;
+    padding-left: 25px;
+}
+
+.descricao__titulos-titulos {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-branca);
+}
+
+.descricao__texto-two {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    font-size: 20px;
+}
+
+.descricao__inferior {
+    padding: 1rem 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--cor-branca);
+    display: flex;
+    gap: 1rem;
+}
+
+.descricao__inferior-svg {
+    width: 13px;
+    height: 13px;
+    align-self: center;
+}
+
+.principal .secao__discovery {
+    width: 95%;
+}
+
+.principal .secao__discovery .discovery_link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.principal .secao__discovery .discovery_link .discovery__info {
+    width: 120px;
+    height: 190px;
+    padding: 0 25px 20px 20px;
+    background-color: var(--cor-branca);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px 0 0 5px;
+}
+.principal .secao__discovery .discovery_link .discovery__info
+.container__discovery__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal .secao__discovery .discovery_link .discovery__info .discovery__info-titulo {
+    color: var(--cor-cinza-discovery);
+    font-size: 8px;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.principal .secao__discovery .discovery_link .discovery__info .discovery__info-texto {
+    color: var(--cor-cinza-discovery);
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.1;
+}
+
+.principal .secao__discovery .discovery_link .discovery__img {
+    width: 180px;
+    height: 210px;
+    border-radius: 0 5px 5px 0;
+}
+
+.principal .secao__discovery .discovery_link .discovery__img-estrumentos {
+    width: 100%; 
+    height: 100%;
+
+}
+
+.discovery_link .discovery__info .discovery__info-botao {
+    border: none;
+    background-color: var(--cor-branca);
+    color: var(--cor-azul-discovery-botao);
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: left;
 }
