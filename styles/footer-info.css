@@ -1,0 +1,33 @@
+@import './img/logo__ML.png';
+
+.logo__footer-link {
+    text-decoration: none;
+}
+
+.container__logo {
+    /* width: ; */
+    padding: 0.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding-left: 7rem; */
+    /* margin: 1rem; */
+    background-color: var(--cor-container-amarelo);
+}
+
+.container_img {
+    background-color: var(--cor-container-amarelo);
+    padding: 5px 4px 5px 4px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 6px 0px;
+    margin-left: 3rem;
+}
+
+.img-logo {
+    width: 39px;
+    height: 28px;
+    /* border-radius: 5px;
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.5.4/mercadolibre/logo__small@2x.png); */
+    /* background-size: 39px 28px;
+    background-repeat: no-repeat; */
+}
