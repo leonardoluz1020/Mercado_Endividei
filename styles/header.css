@@ -1,25 +1,42 @@
-.cabecalho__principal-opcoes {
+.cabecalho {
     width: 100vw;
+}
+.cabecalho__principal-opcoes {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.3rem 0;
+    padding: 0.6rem 0.5rem;
 }
 
-.cabecalho__logo_img {
+.container_img {
+    background-color: var(--cor-container-amarelo);
+    padding: 5px 4px 5px 4px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 6px 0px;
+    /* margin-left: 1.5rem; */
+}
+
+.container_img .img-logo {
+    width: 36px;
+    height: 25px;
+}
+
+/* .cabecalho__logo_img {
     width: 2.0rem;
     height: 2.0rem;
     border: 1px solid var(--cor-branca);
     border-radius: 55px;
     margin: 0 0.5rem 0 1.5rem;
-}
+} */
 
-.cabecalho__logo_img_lupa{
-    width: 1.7rem;
+.cabecalho__logo_img_lupa {
+    width: 1.73rem;
+    margin-left: 0.4rem;
 }
 
 .cabecalho__principal-opcoes-busca-input {
-    width: 70%;
+    width: 55%;
     padding: 0.4rem 0;
     border: none;
 }
@@ -36,15 +53,14 @@
 .cabecalho__principal-opcoes-container {
     width: 25%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 0.5rem 0 0;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    /* align-items: center; */
 }
 
 .cabecalho__principal-opcoes-menu-hamburgue {
-    width: 2rem;
-    height: 2rem;
-    margin: 0 0.6rem;
+    width: 1.9rem;
+    height: 1.9rem;
 }
 
 .cabecalho__principal-opcoes-carrinho-img {
@@ -53,7 +69,12 @@
     border-radius: 55px;
 }
 
-.cabecalho__principal-cep-link {
+.cabecalho__principal-cep {
+    width: 100%;
+}
+
+.cabecalho__principal-cep .cabecalho__principal-cep-link {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
