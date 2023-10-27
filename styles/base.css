@@ -1,6 +1,8 @@
 :root {
     --cor-branca: #fff;
     --cor-preta: rgba(0,0,0,.9);
+    --cor-preta-secundario: #333;
+    --cor-amarelo-borda: #f2e454;
     --cor-container-amarelo: #fff159;
     --cor-azul:  #1259c3;
     --cor-azul-botao: #3483fa;
@@ -33,6 +35,7 @@ body{
     border-bottom: 0.8px solid var(--cor-borda);
 }
 
-.cabecalho {
-    width: 100vw;
+.footer-info {
+    display: flex;
+    flex-direction: column;
 }

@@ -1,43 +1,28 @@
 .cabecalho {
     width: 100vw;
 }
+
 .cabecalho__principal-opcoes {
-    width: 100%;
     display: flex;
-    justify-content: space-around;
+    padding: 0.6rem 0 0.6rem 0.8rem;
+}
+
+.container__logo-input {
+    width: 80%;
+    display: flex;
     align-items: center;
-    padding: 0.6rem 0.5rem;
+    justify-content: flex-start;
+    gap: 0.3rem;
 }
 
-.container_img {
-    background-color: var(--cor-container-amarelo);
-    padding: 5px 4px 5px 4px;
-    border-radius: 5px;
-    box-shadow: 0px 1px 6px 0px;
-    /* margin-left: 1.5rem; */
-}
-
-.container_img .img-logo {
-    width: 36px;
-    height: 25px;
-}
-
-/* .cabecalho__logo_img {
-    width: 2.0rem;
-    height: 2.0rem;
-    border: 1px solid var(--cor-branca);
-    border-radius: 55px;
-    margin: 0 0.5rem 0 1.5rem;
-} */
-
-.cabecalho__logo_img_lupa {
-    width: 1.73rem;
-    margin-left: 0.4rem;
+.cabecalho__principal-opcoes .img-logo {
+    width: 44px;
+    height: 32px;
 }
 
 .cabecalho__principal-opcoes-busca-input {
-    width: 55%;
-    padding: 0.4rem 0;
+    width: 90%;
+    padding: 0.5rem 0.4rem 0.5rem 0.3rem;
     border: none;
 }
 
@@ -47,52 +32,44 @@
     font-weight: 300;
     text-align: start;
     color: var(--cor-borda);
-    padding-left: 1rem;
+    padding-left: 2rem;
+    background: url('./img/lupa.jpeg') no-repeat;
+    background-position: left;
+    background-size: 1.5rem 1rem;
+    border: none;
 }
 
-.cabecalho__principal-opcoes-container {
-    width: 25%;
-    display: flex;
-    justify-content: flex-start;
-    gap: 0.5rem;
-    /* align-items: center; */
+.cabecalho__principal-opcoes-busca-input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 
 .cabecalho__principal-opcoes-menu-hamburgue {
-    width: 1.9rem;
-    height: 1.9rem;
+    margin-left: 0.5rem;
+    width: 25px;
+    height: 25px;
 }
 
 .cabecalho__principal-opcoes-carrinho-img {
-    width: 2rem;
-    height: 2rem;
+    margin: 0 1rem;
+    width: 28px;
+    height: 28px;
     border-radius: 55px;
 }
 
-.cabecalho__principal-cep {
-    width: 100%;
-}
-
-.cabecalho__principal-cep .cabecalho__principal-cep-link {
-    width: 100%;
+.container .cabecalho__principal-cep-link {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.3rem 2rem 0.8rem 1rem;
+    padding: .5rem 0;
     text-decoration: none;
 }
 
-.cabecalho__principal-cep-link-container {
+.container .cabecalho__principal-cep-link .cabecalho__principal-cep-link-container {
     width: 80%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-
-.cabecalho__principal-cep-link-img {
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 55px;
 }
 
 .cabecalho__principal-cep-link-img-titulo {
@@ -101,6 +78,12 @@
     width: 76%;
     text-align: left;
     padding-left: 0.5rem;
+}
+
+.cabecalho__principal-cep-link-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 55px;
 }
 
 .cabecalho__secundario {

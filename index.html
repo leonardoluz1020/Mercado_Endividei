@@ -15,76 +15,69 @@
     <link rel="stylesheet" href="./styles/principal.css">
     <link rel="stylesheet" href="./styles/secoes.css">
     <link rel="stylesheet" href="./styles/footer-info.css">
+    <link rel="stylesheet" href="./styles/navbar-footer.css">
 </head>
 
 <body>
-    <!-- Cabeçalho -->
-    <header>
-        <nav class="cabecalho">
-            <div class="container cabecalho__principal-opcoes">
-                <div class="container_img">
-                    <img class="img-logo" src="./styles/img/logo__ML.png" alt="logo">
-                </div>
-                <img class="cabecalho__logo_img_lupa" src="styles/img/lupa.jpeg" alt="Lupa de pesquisa">
+    <header class="cabecalho">
+        <div class="container cabecalho__principal-opcoes">
+
+            <div class="container__logo-input">
+                <img class="img-logo" src="./styles/img/logo__ML.png" alt="logo">
+
                 <input class="cabecalho__principal-opcoes-busca-input" type="search" name="" id="pesquisar"
                     placeholder=" Estou buscando...">
-                <div class="cabecalho__principal-opcoes-container">
-                    <a href="#"><img class="cabecalho__principal-opcoes-menu-hamburgue" src="styles/img/Menu.svg"
-                            alt="menu hamburgue"></a>
-                    <a href="#" class="cabecalho__principal-opcoes-carrinho"><img
-                            class="cabecalho__principal-opcoes-carrinho-img" src="styles/img/carrinho_compra.png"
-                            alt="carrinho de compras"></a>
+            </div>
+
+            <a href="#"><img class="cabecalho__principal-opcoes-menu-hamburgue" src="styles/img/Menu.svg"
+                    alt="menu hamburgue"></a>
+            <a href="#" class="cabecalho__principal-opcoes-carrinho"><img
+                    class="cabecalho__principal-opcoes-carrinho-img" src="styles/img/carrinho_compra.png"
+                    alt="carrinho de compras"></a>
+        </div>
+        <div class="container">
+            <a href="#" class="cabecalho__principal-cep-link">
+                <div class="cabecalho__principal-cep-link-container">
+                    <img class="cabecalho__principal-cep-link-img" src="styles/img/Localizador_Seta.png"
+                        alt="localizar">
+                    <h2 class="cabecalho__principal-cep-link-img-titulo">Informe seu CEP</h2>
+                </div>
+                <img class="cabecalho__principal-cep-link-img" src="styles/img/seta_direita.png" alt="Seta">
+            </a>
+        </div>
+        <div class="container cabecalho__secundario">
+            <div class="swiper">           
+                <div class="swiper-wrapper">                    
+                    <div class="swiper-slide"><img class="swiper-wrapper-img"
+                            src="https://http2.mlstatic.com/D_NQ_931062-MLA71927495162_092023-F.webp" alt="banner">
+                    </div>
+                    <div class="swiper-slide"><img class="swiper-wrapper-img"
+                            src="https://http2.mlstatic.com/D_NQ_985351-MLA71879890917_092023-F.webp"
+                            alt="pulseira"></div>
+                    <div class="swiper-slide"><img class="swiper-wrapper-img"
+                            src="https://http2.mlstatic.com/D_NQ_805163-MLA71392483128_082023-F.webp"
+                            alt="Festival"></div>
+                    <div class="swiper-slide"><img class="swiper-wrapper-img"
+                            src="https://http2.mlstatic.com/D_NQ_645042-MLA71879803719_092023-F.webp"
+                            alt="banner jpeg"></div>
+                    <div class="swiper-slide"><img class="swiper-wrapper-img"
+                            src="https://http2.mlstatic.com/D_NQ_827921-MLA71142720127_082023-F.webp"
+                            alt="banner jpeg"></div>
+                    <div class="swiper-slide"><img class="swiper-wrapper-img"
+                            src="https://http2.mlstatic.com/D_NQ_869284-MLA71881171797_092023-F.webp"
+                            alt="banner jpeg"></div>
                 </div>
             </div>
-            <div class="container cabecalho__principal-cep">
-                <a href="#" class="cabecalho__principal-cep-link">
-                    <div class="cabecalho__principal-cep-link-container">
-                        <img class="cabecalho__principal-cep-link-img" src="styles/img/Localizador_Seta.png"
-                            alt="localizar">
-                        <h2 class="cabecalho__principal-cep-link-img-titulo">Informe seu CEP</h2>
-                    </div>
-                    <img class="cabecalho__principal-cep-link-img" src="styles/img/seta_direita.png" alt="Seta">
+            <div class="container cabecalho__secundario-form-pagamentos">
+                <a href="#" class="form__pagamentos-link">
+                    <img src="./styles/img/Cartao_Credito.png" alt="imagem" class="form__pagamentos-link-img">
                 </a>
-            </div>
-            <div class="container cabecalho__secundario">
-                <div class="swiper">
-                    <!-- Codigo do carrossel -->
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide"><img class="swiper-wrapper-img"
-                                src="https://http2.mlstatic.com/D_NQ_931062-MLA71927495162_092023-F.webp" alt="banner">
-                        </div>
-                        <div class="swiper-slide"><img class="swiper-wrapper-img"
-                                src="https://http2.mlstatic.com/D_NQ_985351-MLA71879890917_092023-F.webp"
-                                alt="pulseira"></div>
-                        <div class="swiper-slide"><img class="swiper-wrapper-img"
-                                src="https://http2.mlstatic.com/D_NQ_805163-MLA71392483128_082023-F.webp"
-                                alt="Festival"></div>
-                        <div class="swiper-slide"><img class="swiper-wrapper-img"
-                                src="https://http2.mlstatic.com/D_NQ_645042-MLA71879803719_092023-F.webp"
-                                alt="banner jpeg"></div>
-                        <div class="swiper-slide"><img class="swiper-wrapper-img"
-                                src="https://http2.mlstatic.com/D_NQ_827921-MLA71142720127_082023-F.webp"
-                                alt="banner jpeg"></div>
-                        <div class="swiper-slide"><img class="swiper-wrapper-img"
-                                src="https://http2.mlstatic.com/D_NQ_869284-MLA71881171797_092023-F.webp"
-                                alt="banner jpeg"></div>
-                    </div>
-                </div>
-                <div class="container cabecalho__secundario-form-pagamentos">
-                    <a href="#" class="form__pagamentos-link">
-                        <img src="./styles/img/Cartao_Credito.png" alt="imagem" class="form__pagamentos-link-img">
-                    </a>
-                    <div class="cabecalho__secundario-form-pagamentos-container">
-                        <h2 class="form__pagamentos-titulo">Até 10 parcelas sem juros</h2>
-                        <a href="#" class="form__pagamentos-link-opcoes">Ver mais</a>
-                    </div>
+                <div class="cabecalho__secundario-form-pagamentos-container">
+                    <h2 class="form__pagamentos-titulo">Até 10 parcelas sem juros</h2>
+                    <a href="#" class="form__pagamentos-link-opcoes">Ver mais</a>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
     <main class="principal">
         <section class="principal__visto-principal">
@@ -473,6 +466,20 @@
                 <span class="footer-texto">Compre e venda com o app!</span>
             </div>
         </a>
+        <nav class="navbar-footer">
+            <ul class="links-footer">
+                <li class="li-footer"><a class="a-link" href="#">Minha conta</a></li>
+                <li class="li-footer"><a class="a-link" href="#">Compras</a></li>
+                <li class="li-footer"><a class="a-link" href="#">Histórico</a></li>
+                <li class="li-footer"><a class="a-link" href="#">Ofertas do dia</a></li>
+                <li class="li-footer"><a class="a-link" href="#">Favoritos</a></li>
+                <li class="li-footer"><a class="a-link" href="#">Lojas oficiais</a></li>
+                <li class="li-footer"><a class="a-link" href="#">Categorias</a></li>
+                <li class="li-footer"><a class="a-link" href="#">Meli+</a></li>
+                <li class="li-footer"><a class="a-link" href="#">Contato</a></li>
+                <li class="li-footer"><a class="a-link" href="#">Vender</a></li>
+            </ul>
+        </nav>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script> const swiper = new Swiper('.swiper', {

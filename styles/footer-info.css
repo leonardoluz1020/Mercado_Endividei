@@ -1,15 +1,16 @@
 .footer-info .logo__footer-link {
-    text-decoration: none;
+    background-color: var(--cor-container-amarelo);
+    border-top: solid 1px var(--cor-amarelo-borda);
+    border-bottom: solid 1px var(--cor-amarelo-borda);
 }
 
 .footer-info .logo__footer-link .container__logo {
-    width: 100vw;
-    padding: 0.8rem;
+    width: 90%;
+    padding: 0.8rem 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 0.5rem;
-    background-color: var(--cor-container-amarelo);
 }
 
 .footer-info .logo__footer-link .container__logo .container_img {

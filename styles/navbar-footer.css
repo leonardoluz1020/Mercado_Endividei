@@ -1,0 +1,27 @@
+.navbar-footer {
+    background-color: var(--cor-branca);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    border-bottom: solid 1px var(--cor-borda);
+}
+
+.navbar-footer .links-footer {
+    width: 85%;
+    padding: .8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar-footer .links-footer .li-footer {
+    width: 120px;
+    margin: .5rem;
+    text-align: start;
+}
+
+.navbar-footer .links-footer .li-footer .a-link {
+    color: var(--cor-preta-secundario);
+    text-align: start;
+}
