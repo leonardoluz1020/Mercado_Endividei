@@ -2,8 +2,7 @@
     background-color: var(--cor-branca);
     text-align: center;
     display: flex;
-    justify-content: center;    
-    border-bottom: solid 1px var(--cor-borda);
+    justify-content: center;
 }
 
 .navbar-footer .links-footer {

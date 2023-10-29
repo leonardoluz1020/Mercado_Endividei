@@ -1,10 +1,10 @@
 :root {
     --cor-branca: #fff;
-    --cor-preta: rgba(0,0,0,.9);
+    --cor-preta: rgba(0, 0, 0, .9);
     --cor-preta-secundario: #333;
     --cor-amarelo-borda: #f2e454;
     --cor-container-amarelo: #fff159;
-    --cor-azul:  #1259c3;
+    --cor-azul: #1259c3;
     --cor-azul-botao: #3483fa;
     --cor-azul-discovery-botao: #3a82fa;
     --cor-azul-sansung: #2968c8;
@@ -18,10 +18,10 @@
     --second_color_loyalty: #AA1192;
     --deg_loyalty: 45deg;
     --percentage_loyalty: 0%;
-    --font-family: 'Open Sans',-apple-system,Roboto,Arial,sans-serif,sans-serif;
+    --font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
-body{
+body {
     background-color: var(--cor-cinza);
     font-family: var(--font-family);
     font-size: 14px;
@@ -31,11 +31,16 @@ body{
 }
 
 .container {
-    background-color: var(--cor-container-amarelo);    
+    background-color: var(--cor-container-amarelo);
     border-bottom: 0.8px solid var(--cor-borda);
 }
 
 .footer-info {
     display: flex;
     flex-direction: column;
+}
+
+.rodape_white {
+    padding: 4rem;
+    background-color: var(--cor-branca);
 }

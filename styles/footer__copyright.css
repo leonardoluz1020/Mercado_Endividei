@@ -1,0 +1,20 @@
+.footer__copyright {
+    padding: 1.8rem;
+    background-color: var(--cor-branca);
+}
+
+.footer__copyright .link-descricoes {
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-preta);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer__copyright .link-descricoes .link-texto-info {
+    padding-left: 20px;
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.5.5/mercadolibre/accessibility.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 14px;
+}

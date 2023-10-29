@@ -1,0 +1,18 @@
+.create_login-footer {
+    margin-top: 1px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.8rem 1.8rem 1.8rem 3rem;
+    background-color: var(--cor-branca);
+    gap: 1rem;
+}
+
+.create_login-footer .create {
+    border-right: solid 1px var(--cor-borda);
+    padding-right: 1rem;
+}
+
+.create_login-footer a {
+    color: var(--cor-azul-botao);
+    font-weight: 400;
+}
