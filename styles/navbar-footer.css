@@ -2,14 +2,13 @@
     background-color: var(--cor-branca);
     text-align: center;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
     border-bottom: solid 1px var(--cor-borda);
 }
 
 .navbar-footer .links-footer {
     width: 85%;
-    padding: .8rem;
+    padding: .8rem .8rem 2rem .8rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -19,9 +18,13 @@
     width: 120px;
     margin: .5rem;
     text-align: start;
+    padding: 0.5rem 0;
+    line-height: 1.3em;
 }
 
 .navbar-footer .links-footer .li-footer .a-link {
     color: var(--cor-preta-secundario);
     text-align: start;
+    font-weight: 400;
+    font-size: 13px;
 }
